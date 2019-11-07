@@ -12,3 +12,9 @@ function fizzBuzz(number) {
 
     return number;
 }
+
+for (i = 0; i < 100; i++) {
+    console.log(fizzBuzz(i));
+}
+
+console.log('Lunch?');
